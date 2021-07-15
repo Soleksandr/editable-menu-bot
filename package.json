@@ -1,0 +1,42 @@
+{
+  "name": "editable-menu-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "start": "node ./dist "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa-bodyparser": "^4.3.2",
+    "dotenv": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-body-parser": "^1.1.2",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "node-telegram-bot-api": "^0.53.0",
+    "redis": "^3.1.2",
+    "ts-node": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-router": "^7.4.4",
+    "@types/node-telegram-bot-api": "^0.51.4",
+    "@types/redis": "^2.8.31",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
